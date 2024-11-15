@@ -3,6 +3,7 @@ This project implements a web server using Node.js and the Express framework to 
 
 
 Directory Hierarchy
+''' bash
 B6 Server/
 │
 ├── client/
@@ -41,6 +42,7 @@ B6 Server/
 │   │   └── studentRoutes.js
 ├── package-lock.json
 └── package.json
+''' bash
 
 The server directory structure contains route files of backend functionalities such as get, post, search, and delete for the backend operations as well as the server.js file to start the backend server. In classRoutes.js includes functions to get class ID, add new classes, and to get class options for the drop down menus. fileRoutes.js includes functions to get files and add new files in a subdirectory. studentRoutes.js searches, addes, deletes, gets, and updates all information concerning students.
 The data directory structure consists of class ID folders (e.g., DATA236), each containing files corresponding to different semesters/years (e.g., Winter2024.txt). Each file contains records for students enrolled in that class, including their names, student IDs, and email addresses. 
